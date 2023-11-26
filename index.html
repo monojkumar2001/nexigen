@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon Site -->
+        <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <!-- Title -->
+        <title>Nexigen - Home</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <!-- Bootstrap Icon CSS -->
+        <link rel="stylesheet" href="./assets/bootstrap-icons-1.10.4/font/bootstrap-icons.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="./assets/css/animate.css">
+        <!-- Video Modal CSS -->
+        <link rel="stylesheet" href="./assets/css/jquery.yu2fvl.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+        <!-- Main Style CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Responsive Style CSS -->
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+
+    <body>
+        <!-- ================
+        Loading Window
+    ================= -->
+        <div class="nexigen-loading">
+            <div class="lds-ripple">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- =====================
+        Nexigen Search Popup
+    ====================== -->
+        <div class="search-popup">
+            <button class="close-search">
+                <i class="bi bi-x-circle"></i>
+            </button>
+            <form method="post" action="#">
+                <div class="form-group">
+                    <input type="search" name="search" placeholder="Search Here" required>
+                    <button>
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- =====================
+        Nexigen Header Top
+    ====================== -->
+        <section class="header-top">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header-top-left">
+                            <h4><span><img src="./assets/images/icon-svg/location.svg" alt="location"></span> 3972
+                                Westheimer Rd, Canada</h4>
+                            <h4><span><img src="./assets/images/icon-svg/clock.svg" alt="time"></span> Mon- Fri : 09:30
+                                am - 06:30 pm</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header-top-right">
+                            <a href="mailto:nexigen@gmail.com"><span><img src="./assets/images/icon-svg/envelop.svg"
+                                        alt="mail"></span> nexigen@gmail.com</a>
+                            <ul>
+                                <li><a href="#"><img src="./assets/images/icon-svg/facebook.svg" alt="facebook"></a>
+                                </li>
+                                <li><a href="#"><img src="./assets/images/icon-svg/twitter.svg" alt="twitter"></a></li>
+                                <li><a href="#"><img src="./assets/images/icon-svg/linkedin.svg" alt="linkedin"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Nexigen Header Menu
+    ====================== -->
+        <header id="sticky-header">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-2">
+                        <div class="mobile-flex">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/images/logo.svg" alt="nexigen">
+                                </a>
+                            </div>
+                            <!-- Mobile Hamburger Menu -->
+                            <div class="hamburger-menu">
+                                <i class="bi bi-list"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="header-menu">
+                            <!-- Mobile Menu Close Button -->
+                            <div class="close-btn">
+                                <i class="bi bi-x"></i>
+                            </div>
+                            <!-- Only Show On Mobile Devices -->
+                            <div class="appointment-mobile">
+                                <a href="#" class="btn-search"><img src="./assets/images/icon-svg/search.svg"
+                                        alt="search"></a>
+                                <a href="make-appointment.html" class="btn-primary">Make Appointment</a>
+                            </div>
+                            <!-- Menu -->
+                            <ul>
+                                <li class="active"><a class="sub-btn" href="#">Home</a>
+                                    <ul class="submenu">
+                                        <li><a href="index.html">Home V1</a></li>
+                                        <li><a href="index-v2.html">Home V2</a></li>
+                                        <li><a href="index-v3.html">Home V3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub-btn" href="#">Services</a>
+                                    <ul class="submenu">
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="services-detail.html">Services Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub-btn" href="#">Pages</a>
+                                    <ul class="submenu">
+                                        <li><a href="about-us.html">About US</a></li>
+                                        <li><a href="our-team.html">Our Team</a></li>
+                                        <li><a href="our-team-v2.html">Our Team V2</a></li>
+                                        <li><a href="team-single.html">Team Single</a></li>
+                                        <li><a href="make-appointment.html">Make Appointment</a></li>
+                                        <li><a href="faqs.html">FAQS</a></li>
+                                        <li><a href="404.html">404</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub-btn" href="#">Projects</a>
+                                    <ul class="submenu">
+                                        <li><a href="projects.html">Projects</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub-btn" href="#">Blog</a>
+                                    <ul class="submenu">
+                                        <li><a href="blog-all.html">Blog All</a></li>
+                                        <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                        <li><a href="blog-single-left.html">Blog Left</a></li>
+                                        <li><a href="blog-single-right.html">Blog Right</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="sub-btn" href="#">Contact</a>
+                                    <ul class="submenu">
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact-v2.html">Contact V2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- Info Business Only Show On Mobile Devices -->
+                            <div class="header-top header-top-on-menu">
+                                <div class="header-top-left">
+                                    <h4><span><img src="./assets/images/icon-svg/location.svg" alt="location"></span>
+                                        3972 Westheimer Rd, Canada</h4>
+                                    <h4><span><img src="./assets/images/icon-svg/clock.svg" alt="time"></span> Mon- Fri
+                                        : 09:30 am - 06:30 pm</h4>
+                                </div>
+                                <div class="header-top-right">
+                                    <a href="mailto:nexigen@gmail.com"><span><img
+                                                src="./assets/images/icon-svg/envelop.svg" alt="mail"></span>
+                                        nexigen@gmail.com</a>
+                                    <ul>
+                                        <li><a href="#"><img src="./assets/images/icon-svg/facebook.svg"
+                                                    alt="facebook"></a></li>
+                                        <li><a href="#"><img src="./assets/images/icon-svg/twitter.svg"
+                                                    alt="twitter"></a></li>
+                                        <li><a href="#"><img src="./assets/images/icon-svg/linkedin.svg"
+                                                    alt="linkedin"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="header-right">
+                            <a href="#" class="btn-search"><img src="./assets/images/icon-svg/search.svg"
+                                    alt="search"></a>
+                            <a href="make-appointment.html" class="btn-primary">Make Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- =====================
+        Nexigen Hero
+    ====================== -->
+        <section class="hero">
+            <div class="hero-animation">
+                <img class="anim-hero-01" src="./assets/images/home/doddles01.png" alt="">
+                <img class="anim-hero-02" src="./assets/images/home/doddles02.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="hero-left">
+                            <h4>Welcome to NexiGen</h4>
+                            <h1>Solutions for <br class="d-lg-block d-none"> every organization</h1>
+                            <p>If your company is facing financial challenges, struggling with operations, or looking to
+                                expand, we can help identify the root cause of the problem and develop a strategic plan
+                                to address it.</p>
+                            <div class="btns-hero">
+                                <a href="about-us.html" class="btn-secondary">Discover More</a>
+                                <a href="#" class="btn-video play-3">
+                                    <span><i class="bi bi-play-fill"></i></span> How we work
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="hero-right">
+                            <img src="./assets/images/home/home-feature01.png" alt="solutions">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Nexigen Company
+    ====================== -->
+        <div class="company">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="company-prev">
+                            <img src="./assets/images/home/copmany01.png" alt="">
+                            <img src="./assets/images/home/copmany02.png" alt="">
+                            <img src="./assets/images/home/copmany03.png" alt="">
+                            <img src="./assets/images/home/copmany04.png" alt="">
+                            <img src="./assets/images/home/copmany05.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =====================
+        About Market
+    ====================== -->
+        <section class="about-market">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="single-market-desc">
+                            <span><img src="./assets/images/icon-svg/wealth.svg" alt="wealth"></span>
+                            <h4>Wealth Management</h4>
+                            <p>The goal of wealth management is to help clients grow and protect their wealth over the
+                                long term, while also providing them with financial peace of mind.</p>
+                            <a href="services-detail.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-market-desc active">
+                            <span><img src="./assets/images/icon-svg/aduit-marketing.svg" alt="aduit"></span>
+                            <h4>Audit Marketing</h4>
+                            <p>The goal of wealth management is to help clients grow and protect their wealth over the
+                                long term, while also providing them with financial peace of mind.</p>
+                            <a href="services-detail.html">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-market-desc">
+                            <span><img src="./assets/images/icon-svg/finance.svg" alt="finance"></span>
+                            <h4>Finance Consulting</h4>
+                            <p>The goal of wealth management is to help clients grow and protect their wealth over the
+                                long term, while also providing them with financial peace of mind.</p>
+                            <a href="services-detail.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        About US
+    ====================== -->
+        <section class="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-left">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-7 col-7">
+                                    <div class="about-img-left">
+                                        <img src="./assets/images/home/corporate01.png" alt="corporate">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-5">
+                                    <div class="about-img-right">
+                                        <img src="./assets/images/home/corporate02.png" alt="corporate">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="years-exp">
+                                <h2><span class="counter">25</span> <sup>+</sup></h2>
+                                <p>Years Experience <br>
+                                    our company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-right">
+                            <h4>about us</h4>
+                            <h2>Our skilled team <br class="d-lg-block d-md-none">
+                                grow your business</h2>
+                            <p>We are specializes in helping companies accelerate their growth through expert guidance,
+                                strategic planning, and implementation support.</p>
+                            <ul>
+                                <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Performing
+                                    market research</li>
+                                <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Providing
+                                    information to a client</li>
+                                <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Strategic
+                                    planning</li>
+                            </ul>
+                            <div class="about-expert">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-5 col-5">
+                                        <div class="about-expert-anim">
+                                            <img class="fadeInLeft wow" data-wow-duration="2s" data-wow-delay="2s"
+                                                src="./assets/images/home/expertsm01.png" alt="">
+                                            <img class="fadeInLeft wow" data-wow-duration="2s" data-wow-delay="2.5s"
+                                                src="./assets/images/home/expertsm02.png" alt="">
+                                            <img class="fadeInLeft wow" data-wow-duration="3s" data-wow-delay="3s"
+                                                src="./assets/images/home/expertsm03.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-7 col-7">
+                                        <div class="about-expert-counts">
+                                            <h3><span class="counter">1.289</span></h3>
+                                            <p>Our Expert Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn-secondary" href="about-us.html">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Latest Project
+    ====================== -->
+        <section class="latest-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-common">
+                            <h4>latest projects</h4>
+                            <h2>We have earned a reputation <br class="d-lg-block d-none"> as the market leader</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-project">
+                            <img src="./assets/images/home/project01.png" alt="">
+                            <div class="project-title">
+                                <a href="project-details.html"><i class="bi bi-box-arrow-up-right"></i></a>
+                                <h3>Business Consulting</h3>
+                                <h3>Nexigen</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-project">
+                            <img src="./assets/images/home/project02.png" alt="">
+                            <div class="project-title">
+                                <a href="project-details.html"><i class="bi bi-box-arrow-up-right"></i></a>
+                                <h3>Business Consulting</h3>
+                                <h3>Nexigen</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-project">
+                            <img src="./assets/images/home/project03.png" alt="">
+                            <div class="project-title">
+                                <a href="project-details.html"><i class="bi bi-box-arrow-up-right"></i></a>
+                                <h3>Business Consulting</h3>
+                                <h3>Nexigen</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        How We Works
+    ====================== -->
+        <section class="how-we-work">
+            <div class="how-its-work-anim">
+                <img class="anim-work-01" src="./assets/images/home/doddles03.png" alt="">
+                <img class="anim-work-02" src="./assets/images/home/doddles04.png" alt="">
+                <img class="anim-work-03" src="./assets/images/home/arrow-indicate.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-common">
+                            <h4>how we works</h4>
+                            <h2>Steps you need to take for a <br class="d-lg-block d-none"> thriving business</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-we-work-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="gater-info-wrap">
+                                <div class="row">
+                                    <div class="col-lg-12 offset-lg-0 col-md-6 offset-md-3">
+                                        <div class="gater-info-bx gater-info-bx-top">
+                                            <div class="gater-info-left">
+                                                <h3>01</h3>
+                                            </div>
+                                            <div class="gater-info-right">
+                                                <h3>Gathering Information</h3>
+                                                <p>Gathering information can be helpful for companies in marketing and
+                                                    promoting customer growth</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="gater-info-bx gater-info-bx-left">
+                                            <div class="gater-info-left">
+                                                <h3>02</h3>
+                                            </div>
+                                            <div class="gater-info-right">
+                                                <h3>Professional Advisor's</h3>
+                                                <p>Collecting information is always helpful for companies looking to
+                                                    market and drive customer growth</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="gater-info-bx gater-info-bx-right">
+                                            <div class="gater-info-left">
+                                                <h3>03</h3>
+                                            </div>
+                                            <div class="gater-info-right">
+                                                <h3>Analyze Your Business</h3>
+                                                <p>Information gathering always aids companies in marketing and
+                                                    fostering customer growth</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Our Services
+    ====================== -->
+        <section class="our-services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-common heading-common-left">
+                            <h4>how we works</h4>
+                            <h2>Steps you need to take for a <br class="d-lg-block d-none"> thriving business</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-service-box">
+                            <div class="single-service-top">
+                                <img src="./assets/images/home/service01.png" alt="">
+                            </div>
+                            <div class="single-service-desc">
+                                <h3>Business Consulting</h3>
+                                <p>We provide the best services to ensure the high-level success of your business</p>
+                                <a href="services-detail.html">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-service-box">
+                            <div class="single-service-top">
+                                <img src="./assets/images/home/service02.png" alt="">
+                            </div>
+                            <div class="single-service-desc">
+                                <h3>Financial Planning</h3>
+                                <p>Our services are tailored to guarantee your business of success</p>
+                                <a href="services-detail.html">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="single-service-box">
+                            <div class="single-service-top">
+                                <img src="./assets/images/home/service03.png" alt="">
+                            </div>
+                            <div class="single-service-desc">
+                                <h3>Marketing Research</h3>
+                                <p>With our exceptional services, your business can reach success</p>
+                                <a href="services-detail.html">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Our FAQ
+    ====================== -->
+        <section class="our-faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 order-lg-0 order-md-1 order-1">
+                        <div class="heading-common heading-common-left">
+                            <h4>OUR FaqS</h4>
+                            <h2>What are they Asked?</h2>
+                        </div>
+                        <div class="faq-left">
+                            <div class="accordion" id="accordionNexigen">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What is a business consultancy company?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        data-bs-parent="#accordionNexigen">
+                                        <div class="accordion-body">
+                                            <p>Businesses hire consultancy companies for a variety of reasons, such as
+                                                improving their operations, increasing efficiency, developing new
+                                                strategies, expanding into new markets, and solving specific business
+                                                problems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Why would a business need to hire a consultancy company?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionNexigen">
+                                        <div class="accordion-body">
+                                            <p>Businesses hire consultancy companies for a variety of reasons, such as
+                                                improving their operations, increasing efficiency, developing new
+                                                strategies, expanding into new markets, and solving specific business
+                                                problems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            How do I know if my business needs consultancy services?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionNexigen">
+                                        <div class="accordion-body">
+                                            <p>Businesses hire consultancy companies for a variety of reasons, such as
+                                                improving their operations, increasing efficiency, developing new
+                                                strategies, expanding into new markets, and solving specific business
+                                                problems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            What is a business consultancy company?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionNexigen">
+                                        <div class="accordion-body">
+                                            <p>Businesses hire consultancy companies for a variety of reasons, such as
+                                                improving their operations, increasing efficiency, developing new
+                                                strategies, expanding into new markets, and solving specific business
+                                                problems.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-lg-1 order-md-0 order-0">
+                        <div class="faq-right">
+                            <img src="./assets/images/home/faq.png" alt="faq">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Customer Feedback
+    ====================== -->
+        <section class="customer-feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="customer-heading">
+                            <h2>Customer Feedback</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2">
+                        <div class="customer-slider owl-carousel">
+                            <!-- Single Customer Slide -->
+                            <div class="single-custome-slide">
+                                <p>Your team was highly professional and knowledgeable, and was able to provide valuable
+                                    insights and recommendations that helped us address some of our biggest challenges.
+                                    Your ability to understand our business needs and tailor your solutions accordingly
+                                    was greatly appreciated.</p>
+                                <div class="info-customer">
+                                    <div class="info-customer-img">
+                                        <img src="./assets/images/home/customer01.png" alt="">
+                                    </div>
+                                    <div class="info-custom-des">
+                                        <h3>Jason L. Guidry</h3>
+                                        <h4>CEO at designernews</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Customer Slide -->
+                            <div class="single-custome-slide">
+                                <p>Your team was highly professional and knowledgeable, and was able to provide valuable
+                                    insights and recommendations that helped us address some of our biggest challenges.
+                                    Your ability to understand our business needs and tailor your solutions accordingly
+                                    was greatly appreciated.</p>
+                                <div class="info-customer">
+                                    <div class="info-customer-img">
+                                        <img src="./assets/images/home/customer01.png" alt="">
+                                    </div>
+                                    <div class="info-custom-des">
+                                        <h3>Jason L. Guidry</h3>
+                                        <h4>CEO at designernews</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Customer Slide -->
+                            <div class="single-custome-slide">
+                                <p>Your team was highly professional and knowledgeable, and was able to provide valuable
+                                    insights and recommendations that helped us address some of our biggest challenges.
+                                    Your ability to understand our business needs and tailor your solutions accordingly
+                                    was greatly appreciated.</p>
+                                <div class="info-customer">
+                                    <div class="info-customer-img">
+                                        <img src="./assets/images/home/customer01.png" alt="">
+                                    </div>
+                                    <div class="info-custom-des">
+                                        <h3>Jason L. Guidry</h3>
+                                        <h4>CEO at designernews</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Customer Slide -->
+                            <div class="single-custome-slide">
+                                <p>Your team was highly professional and knowledgeable, and was able to provide valuable
+                                    insights and recommendations that helped us address some of our biggest challenges.
+                                    Your ability to understand our business needs and tailor your solutions accordingly
+                                    was greatly appreciated.</p>
+                                <div class="info-customer">
+                                    <div class="info-customer-img">
+                                        <img src="./assets/images/home/customer01.png" alt="">
+                                    </div>
+                                    <div class="info-custom-des">
+                                        <h3>Jason L. Guidry</h3>
+                                        <h4>CEO at designernews</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Get In Touch
+    ====================== -->
+        <section class="get-in-touch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="background-contact">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 order-md-0 order-1">
+                                        <div class="get-contact-left">
+                                            <form method="post" action="#">
+                                                <input type="text" name="fName" id="fName" placeholder="First name"
+                                                    required>
+                                                <input type="text" name="lName" id="lName" placeholder="Last name"
+                                                    required>
+                                                <input type="email" placeholder="Email address" required>
+                                                <textarea placeholder="Message"></textarea>
+                                                <label for="check">
+                                                    <input type="checkbox" name="check" id="check">
+                                                    by clicking here you agree to our <a href="#">terms and policy.</a>
+                                                </label>
+                                                <button type="submit" class="btn-secondary btn-get-touch">Send
+                                                    Message</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 order-md-1 order-0">
+                                        <div class="get-contact-right">
+                                            <h2>Get in touch with us <br class="d-lg-block d-none"> for Consultancy</h2>
+                                            <p>if you are looking for expert guidance and support to take your business
+                                                to the next level, or if you need help finding the right yoga course for
+                                                your needs, don't hesitate to get in touch with us.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        From The Blog
+    ====================== -->
+        <section class="blogs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-common heading-common-left">
+                            <h4>FROM THE BLOG</h4>
+                            <h2>What’s Happening</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="blog-bottom-slide owl-carousel">
+                            <div class="single-blog-info">
+                                <div class="blog-img">
+                                    <img src="./assets/images/home/blog01.png" alt="">
+                                </div>
+                                <div class="blog-card-desc">
+                                    <div class="blog-card-top">
+                                        <div class="blog-category">
+                                            <h5>Branding</h5>
+                                        </div>
+                                        <div class="blog-publish-time">
+                                            <h5><span><img src="./assets/images/icon-svg/clock-outline.svg"
+                                                        alt="clock"></span> April 2, 2023</h5>
+                                        </div>
+                                    </div>
+                                    <h3>How to collaborate with companies</h3>
+                                    <p>Are you struggling to take your business to the next level? Our business
+                                        consultancy services can provide you with the guidance and support you need to
+                                        achieve success.</p>
+                                    <a href="blog-single-right.html">Read More <span><img
+                                                src="./assets/images/icon-svg/arrow-circle.svg" alt=""></span></a>
+                                </div>
+                            </div>
+                            <div class="single-blog-info">
+                                <div class="blog-img">
+                                    <img src="./assets/images/home/blog02.png" alt="">
+                                </div>
+                                <div class="blog-card-desc">
+                                    <div class="blog-card-top">
+                                        <div class="blog-category">
+                                            <h5>Marketing</h5>
+                                        </div>
+                                        <div class="blog-publish-time">
+                                            <h5><span><img src="./assets/images/icon-svg/clock-outline.svg"
+                                                        alt="clock"></span> April 1, 2023</h5>
+                                        </div>
+                                    </div>
+                                    <h3>We develop effective marketing</h3>
+                                    <p>Our team can assist you in developing effective marketing and sales strategies
+                                        that will drive growth and profitability. Lorem ipsum, dolor sit amet
+                                        consectetur adipisicing elit. Aperiam, nobis.</p>
+                                    <a href="blog-single-right.html">Read More <span><img
+                                                src="./assets/images/icon-svg/arrow-circle.svg" alt=""></span></a>
+                                </div>
+                            </div>
+                            <div class="single-blog-info">
+                                <div class="blog-img">
+                                    <img src="./assets/images/home/blog01.png" alt="">
+                                </div>
+                                <div class="blog-card-desc">
+                                    <div class="blog-card-top">
+                                        <div class="blog-category">
+                                            <h5>Branding</h5>
+                                        </div>
+                                        <div class="blog-publish-time">
+                                            <h5><span><img src="./assets/images/icon-svg/clock-outline.svg"
+                                                        alt="clock"></span> April 2, 2023</h5>
+                                        </div>
+                                    </div>
+                                    <h3>How to collaborate with companies</h3>
+                                    <p>Are you struggling to take your business to the next level? Our business
+                                        consultancy services can provide you with the guidance and support you need to
+                                        achieve success.</p>
+                                    <a href="blog-single-right.html">Read More <span><img
+                                                src="./assets/images/icon-svg/arrow-circle.svg" alt=""></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================
+        Footer 
+    ====================== -->
+        <footer class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="footer-newsletter">
+                            <h3>Subscribe to our Newsletter</h3>
+                            <form action="#" method="post">
+                                <input type="email" name="email" placeholder="Email address">
+                                <button><img src="./assets/images/icon-svg/arrow-right.svg" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-5 col-md-3 offset-md-3 col-12">
+                        <div class="footer-follow">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li><a href="#" target="_blank"><span><img
+                                                src="./assets/images/icon-svg/facebook-blue.svg" alt=""></span></a></li>
+                                <li><a href="#" target="_blank"><span><img
+                                                src="./assets/images/icon-svg/twitter-blue.svg" alt=""></span></a></li>
+                                <li><a href="#" target="_blank"><span><img
+                                                src="./assets/images/icon-svg/linkedin-blue.svg" alt=""></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-wrap">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="footer-left">
+                                        <div class="footer-logo">
+                                            <img src="./assets/images/logo.svg" alt="">
+                                        </div>
+                                        <p>We are dedicated to helping you achieve your business goals and overcome any
+                                            challenges that may arise.</p>
+                                        <div class="footer-contact">
+                                            <ul>
+                                                <li><a href="tel:956643332221"><span><img
+                                                                src="./assets/images/icon-svg/phone.svg" alt=""></span>
+                                                        +95 664 333 2221</a></li>
+                                                <li><a href="mailto:nexigen@gmail.com"><span><img
+                                                                src="./assets/images/icon-svg/envlope.svg"
+                                                                alt=""></span> nexigen@gmail.com</a></li>
+                                                <li><a href="https://www.google.com/maps" target="_blank"><span><img
+                                                                src="./assets/images/icon-svg/location-yellow.svg"
+                                                                alt=""></span> 3972 Westheimer Rd, Canada</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 offset-lg-1 col-md-3">
+                                    <div class="footer-page-link">
+                                        <h3>Explore</h3>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="about-us.html">Testimonial</a></li>
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="blog-all.html">Blogs</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3">
+                                    <div class="footer-page-link">
+                                        <h3>Quick Links</h3>
+                                        <ul>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="our-team.html">Our Team</a></li>
+                                            <li><a href="our-team-v2.html">Supports</a></li>
+                                            <li><a href="faqs.html">FAQ</a></li>
+                                            <li><a href="contact.html">Help</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4">
+                                    <div class="footer-right">
+                                        <h3>Recent Projects</h3>
+                                        <div class="footer-v1-images">
+                                            <div>
+                                                <a href="project-details.html" class="footer-project-img">
+                                                    <img src="./assets/images/home/footer-pro01.png" alt="">
+                                                </a>
+                                                <a href="project-details.html" class="footer-project-img">
+                                                    <img src="./assets/images/home/footer-pro03.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="project-details.html" class="footer-project-img">
+                                                    <img src="./assets/images/home/footer-pro02.png" alt="">
+                                                </a>
+                                                <a href="project-details.html" class="footer-project-img">
+                                                    <img src="./assets/images/home/footer-pro04.png" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copyright">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-lg-6 col-md-6 order-md-0 order-1">
+                                    <div class="copyright-left">
+                                        <p>&copy; Copyright 2023 by nexigen.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 order-md-1 order-0">
+                                    <div class="copyright-right">
+                                        <ul>
+                                            <li><a href="#">Privacy and Terms</a></li>
+                                            <li><a href="#">Legal Notice</a></li>
+                                            <li><a href="#">Languanges</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="./assets/js/jquery-3.6.2.min.js"></script>
+        <!-- Bootstrap Popper JS -->
+        <script src="./assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <!-- Video Modal JS -->
+        <script src="./assets/js/jquery.yu2fvl.js"></script>
+        <!-- Wow JS -->
+        <script src="./assets/js/wow.js"></script>
+        <!-- Counter JS -->
+        <script src="./assets/js/jquery.counterup.min.js"></script>
+        <script src="./assets/js/waypoints.2.0.3.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="./assets/js/owl.carousel.min.js"></script>
+        <!-- Main JS -->
+        <script src="./assets/js/main.js"></script>
+    </body>
+
+</html>

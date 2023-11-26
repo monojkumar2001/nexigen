@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Site -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Nexigen - About US</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Bootstrap Icon CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap-icons-1.10.4/font/bootstrap-icons.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <!-- Video Modal CSS -->
+    <link rel="stylesheet" href="./assets/css/jquery.yu2fvl.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Responsive Style CSS -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <!-- ================
+        Loading Window
+    ================= -->
+    <div class="nexigen-loading">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+    
+    <!-- =====================
+        Nexigen Search Popup
+    ====================== -->
+    <div class="search-popup">
+        <button class="close-search">
+            <i class="bi bi-x-circle"></i>
+        </button>
+        <form method="post" action="#">
+            <div class="form-group">
+                <input type="search" name="search" placeholder="Search Here" required>
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- =====================
+        Nexigen Header Top
+    ====================== -->
+    <section class="header-top">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="header-top-left">
+                        <h4><span><img src="./assets/images/icon-svg/location.svg" alt="location"></span> 3972 Westheimer Rd, Canada</h4>
+                        <h4><span><img src="./assets/images/icon-svg/clock.svg" alt="time"></span> Mon- Fri : 09:30 am - 06:30 pm</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="header-top-right">
+                        <a href="mailto:nexigen@gmail.com"><span><img src="./assets/images/icon-svg/envelop.svg" alt="mail"></span> nexigen@gmail.com</a>
+                        <ul>
+                            <li><a href="#"><img src="./assets/images/icon-svg/facebook.svg" alt="facebook"></a></li>
+                            <li><a href="#"><img src="./assets/images/icon-svg/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="./assets/images/icon-svg/linkedin.svg" alt="linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+        Nexigen Header Menu
+    ====================== -->
+    <header id="sticky-header">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-2">
+                    <div class="mobile-flex">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo.svg" alt="nexigen">
+                            </a>
+                        </div>
+                        <!-- Mobile Hamburger Menu -->
+                        <div class="hamburger-menu">
+                            <i class="bi bi-list"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="header-menu">
+                        <!-- Mobile Menu Close Button -->
+                        <div class="close-btn">
+                            <i class="bi bi-x"></i>
+                        </div>
+                        <!-- Only Show On Mobile Devices -->
+                        <div class="appointment-mobile">
+                            <a href="#" class="btn-search"><img src="./assets/images/icon-svg/search.svg" alt="search"></a>
+                            <a href="make-appointment.html" class="btn-primary">Make Appointment</a>
+                        </div>
+                        <!-- Menu -->
+                        <ul>
+                            <li><a class="sub-btn" href="#">Home</a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Home V1</a></li>
+                                <li><a href="index-v2.html">Home V2</a></li>
+                                <li><a href="index-v3.html">Home V3</a></li>
+                            </ul>
+                            </li>
+                            <li><a class="sub-btn" href="#">Services</a>
+                                <ul class="submenu">
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="services-detail.html">Services Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a class="sub-btn" href="#">Pages</a>
+                                <ul class="submenu">
+                                    <li><a href="about-us.html">About US</a></li>
+                                    <li><a href="our-team.html">Our Team</a></li>
+                                    <li><a href="our-team-v2.html">Our Team V2</a></li>
+                                    <li><a href="team-single.html">Team Single</a></li>
+                                    <li><a href="make-appointment.html">Make Appointment</a></li>
+                                    <li><a href="faqs.html">FAQS</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sub-btn" href="#">Projects</a>
+                                <ul class="submenu">
+                                    <li><a href="projects.html">Projects</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sub-btn" href="#">Blog</a>
+                                <ul class="submenu">
+                                    <li><a href="blog-all.html">Blog All</a></li>
+                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
+                                    <li><a href="blog-single-left.html">Blog Left</a></li>
+                                    <li><a href="blog-single-right.html">Blog Right</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sub-btn" href="#">Contact</a>
+                                <ul class="submenu">
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact-v2.html">Contact V2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- Info Business Only Show On Mobile Devices -->
+                        <div class="header-top header-top-on-menu">
+                            <div class="header-top-left">
+                                <h4><span><img src="./assets/images/icon-svg/location.svg" alt="location"></span> 3972 Westheimer Rd, Canada</h4>
+                                <h4><span><img src="./assets/images/icon-svg/clock.svg" alt="time"></span> Mon- Fri : 09:30 am - 06:30 pm</h4>
+                            </div>
+                            <div class="header-top-right">
+                                <a href="mailto:nexigen@gmail.com"><span><img src="./assets/images/icon-svg/envelop.svg" alt="mail"></span> nexigen@gmail.com</a>
+                                <ul>
+                                    <li><a href="#"><img src="./assets/images/icon-svg/facebook.svg" alt="facebook"></a></li>
+                                    <li><a href="#"><img src="./assets/images/icon-svg/twitter.svg" alt="twitter"></a></li>
+                                    <li><a href="#"><img src="./assets/images/icon-svg/linkedin.svg" alt="linkedin"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header-right">
+                        <a href="#" class="btn-search"><img src="./assets/images/icon-svg/search.svg" alt="search"></a>
+                        <a href="make-appointment.html" class="btn-primary">Make Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- ================
+        Breadcrumb Common
+    ===================== -->
+    <section class="breadcrubm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrubm-wrapper">
+                        <img class="anim-services-01" src="./assets/images/home/doddles02.png" alt="">
+                        <img class="anim-services-02" src="./assets/images/home/hero-v3-04.png" alt="">
+                        <h5>about us</h5>
+                        <h3>We are the market <br> leader</h3>
+                        <h1 class="breadcrubm-big">about us</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================
+        Nexigen About US
+    ======================== -->
+    <section class="about-us-v2 about-us-v4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-us-v2-left">
+                        <div class="about-img-v2">
+                            <img src="./assets/images/home/about-us-v2.png" alt="">
+                            <img class="rounde-bubble" src="./assets/images/home/round-bubble.png" alt="">
+                        </div>
+                        <div class="years-exp years-exp-v2">
+                            <h2><span class="counter">25</span> <sup>+</sup></h2>
+                            <p>Years Experience <br>
+                                our company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-right">
+                        <h2>Our skilled team <br class="d-lg-block d-md-none">
+                            grow your business</h2>
+                        <p>We are specializes in helping companies accelerate their growth through expert guidance, strategic planning, and implementation support.</p>
+                        <ul>
+                            <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Performing market research</li>
+                            <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Providing information to a client</li>
+                            <li><span><img src="./assets/images/icon-svg/sign-circle.svg" alt=""></span> Strategic planning</li>
+                        </ul>
+                        <div class="about-expert">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-5 col-5">
+                                    <div class="about-expert-anim">
+                                        <img src="./assets/images/home/expertsm01.png" alt="">
+                                        <img src="./assets/images/home/expertsm02.png" alt="">
+                                        <img src="./assets/images/home/expertsm03.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-7">
+                                    <div class="about-expert-counts">
+                                        <h3><span class="counter">1.289</span></h3>
+                                        <p>Our Expert Team</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =====================
+        Nexigen Company
+    ====================== -->
+    <section class="about-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading-common">
+                        <h2>Our Partners</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="company company-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="company-prev">
+                        <img src="./assets/images/home/copmany01.png" alt="">
+                        <img src="./assets/images/home/copmany02.png" alt="">
+                        <img src="./assets/images/home/copmany03.png" alt="">
+                        <img src="./assets/images/home/copmany04.png" alt="">
+                        <img src="./assets/images/home/copmany05.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- ==============
+        About Company
+    ================= -->
+    <section class="about-video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="why-v3-right why-v3-about">
+                        <div class="team-img">
+                            <img src="./assets/images/home/about-highlight.png" alt="">
+                            <span class="play-3"><i class="bi bi-play-fill"></i></span>
+                        </div>
+                        <div class="about-v3-exp about-v3-snd">
+                            <h3><span>25</span> <sup>+</sup> Years experience our company</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================
+        Clinets Feedback
+    ==================== -->
+    <section class="client-feedback-v3 client-feedback-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="feedback-v3-left">
+                        <div class="heading-common heading-common-left">
+                            <h4>Our Testimonial</h4>
+                            <h2>Clients Feedback </h2>
+                        </div>
+                        <p>Customer feedback on our services is crucial to our success. It helps us understand what we're doing well and where we need to improve.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="feedback-v3-slide owl-carousel">
+                        <div class="feedback-v3-right">
+                            <img class="quote-v3" src="./assets/images/icon-svg/quote01.svg" alt="">
+                            <div class="feedback-wrap-top">
+                                <div class="feedback-inner-lf">
+                                    <img src="./assets/images/home/testimonial02.png" alt="">
+                                    <h4>Jason L. Guidry</h4>
+                                    <h5>CEO at designernews</h5>
+                                </div>
+                                <div class="feedback-inner-rs">
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <p>“Your team was highly professional and knowledgeable, and was able to provide valuable insights and recommendations that helped us address some of our biggest challenges ”</p>
+                        </div>
+                        <div class="feedback-v3-right">
+                            <img class="quote-v3" src="./assets/images/icon-svg/quote01.svg" alt="">
+                            <div class="feedback-wrap-top">
+                                <div class="feedback-inner-lf">
+                                    <img src="./assets/images/home/testimonial01.png" alt="">
+                                    <h4>Jason L. Guidry</h4>
+                                    <h5>CEO at designernews</h5>
+                                </div>
+                                <div class="feedback-inner-rs">
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <p>“Your team was highly professional and knowledgeable, and was able to provide valuable insights and recommendations that helped us address some of our biggest challenges ”</p>
+                        </div>
+                        <div class="feedback-v3-right">
+                            <img class="quote-v3" src="./assets/images/icon-svg/quote01.svg" alt="">
+                            <div class="feedback-wrap-top">
+                                <div class="feedback-inner-lf">
+                                    <img src="./assets/images/home/testimonial01.png" alt="">
+                                    <h4>Jason L. Guidry</h4>
+                                    <h5>CEO at designernews</h5>
+                                </div>
+                                <div class="feedback-inner-rs">
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                    <span><img src="./assets/images/icon-svg/star.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <p>“Your team was highly professional and knowledgeable, and was able to provide valuable insights and recommendations that helped us address some of our biggest challenges ”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========
+        Contact US
+    ============== -->
+    <section class="contactv2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contactv2-inner contactv2-inner-page">
+                        <div class="contactv2-animation">
+                            <img class="anim-contactv2-01" src="./assets/images/home/doddles01.png" alt="">
+                            <img class="anim-contactv2-02" src="./assets/images/home/doddles02.png" alt="">
+                        </div>
+                        <div class="heading-common">
+                            <h4>CONTACT US</h4>
+                            <h2>let’s work on <br class="d-lg-block d-none">
+                                something cool together</h2>
+                            <a href="contact.html" class="contact-circle"><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- =====================
+        Footer 
+    ====================== -->
+    <footer class="footer-main footer-main-v2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="footer-left">
+                                    <div class="footer-logo">
+                                        <img src="./assets/images/logo-v2.svg" alt="">
+                                    </div>
+                                    <p>We are dedicated to helping you achieve your business goals and overcome any challenges that may arise.</p>
+                                    <div class="footer-contact">
+                                        <ul>
+                                            <li><a href="tel:956643332221"><span><img src="./assets/images/icon-svg/phone.svg" alt=""></span> +95 664 333 2221</a></li>
+                                            <li><a href="mailto:nexigen@gmail.com"><span><img src="./assets/images/icon-svg/envlope.svg" alt=""></span> nexigen@gmail.com</a></li>
+                                            <li><a href="https://www.google.com/maps" target="_blank"><span><img src="./assets/images/icon-svg/location-yellow.svg" alt=""></span> 3972 Westheimer Rd, Canada</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                                <div class="footer-page-link">
+                                    <h3>Explore</h3>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="about-us.html">Testimonial</a></li>
+                                        <li><a href="projects.html">Projects</a></li>
+                                        <li><a href="blog-all.html">Blogs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3">
+                                <div class="footer-page-link">
+                                    <h3>Quick Links</h3>
+                                    <ul>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="our-team.html">Our Team</a></li>
+                                        <li><a href="our-team-v2.html">Supports</a></li>
+                                        <li><a href="faqs.html">FAQ</a></li>
+                                        <li><a href="contact.html">Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <div class="footer-right">
+                                    <div class="footer-v2-newsletter">
+                                        <h3>Subscribe to our <br>
+                                            newsletter</h3>
+                                        <form action="#">
+                                            <input type="email" placeholder="Email address">
+                                            <button type="submit"><img src="./assets/images/icon-svg/arrow-right.svg" alt=""></button>
+                                        </form>
+                                    </div>
+                                    <h3>Recent Projects</h3>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="footer-project-flex">
+                                                <a href="project-details.html"><img src="./assets/images/home/project-sm-01.png" alt=""></a>
+                                                <a href="project-details.html"><img src="./assets/images/home/project-sm-02.png" alt=""></a>
+                                                <a href="project-details.html"><img src="./assets/images/home/project-sm-03.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright footer-copyright-v2">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-3 col-md-3 ">
+                                <div class="copyright-left">
+                                    <p>&copy; Copyright 2023 by nexigen.com</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="copyright-right">
+                                    <ul>
+                                        <li><a href="#">Privacy and Terms</a></li>
+                                        <li><a href="#">Legal Notice</a></li>
+                                        <li><a href="#">Languanges</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3">
+                                <div class="copyright-social">
+                                    <a href="#"><img src="./assets/images/icon-svg/facebook-gray.svg" alt=""></a>
+                                    <a href="#"><img src="./assets/images/icon-svg/twitter-gray.svg" alt=""></a>
+                                    <a href="#"><img src="./assets/images/icon-svg/linkedin-gray.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="./assets/js/jquery-3.6.2.min.js"></script>
+    <!-- Bootstrap Popper JS -->
+    <script src="./assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Video Modal JS -->
+    <script src="./assets/js/jquery.yu2fvl.js"></script>
+    <!-- Wow JS -->
+    <script src="./assets/js/wow.js"></script>
+    <!-- Counter JS -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.2.0.3.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
